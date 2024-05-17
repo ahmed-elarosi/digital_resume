@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Elarosi - Software Developer</title>
+    <style>
+        /* Dark Theme */
+        body.dark {
+            background-color: #222;
+            color: #fff;
+        }
+        /* Light Theme */
+        body.light {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        /* Header Styles */
+        header {
+            padding: 20px;
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+        }
+        /* Main Content Styles */
+        main {
+            padding: 20px;
+        }
+        /* Skill List Styles */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body class="dark">
+    <header>
+        <h1>Ahmed Elarosi</h1>
+        <p>Software Developer</p>
+    </header>
+    <main>
+        <h2>About Me</h2>
+        <p>I'm Ahmed Elarosi, a software developer with expertise in various programming languages and tools.</p>
+
+        <h2>Programming Languages</h2>
+        <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h2>Web Development</h2>
+        <ul>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Web Components</li>
+        </ul>
+
+        <h2>DevOps Tools</h2>
+        <ul>
+            <li>Jenkins</li>
+            <li>Docker</li>
+            <li>Kafka</li>
+            <li>MongoDB</li>
+        </ul>
+
+        <h2>Version Control</h2>
+        <ul>
+            <li>Git</li>
+        </ul>
+
+        <h2>Others</h2>
+        <ul>
+            <li>Agile Development</li>
+            <li>Project Management</li>
+        </ul>
+    </main>
+
+    <!-- Language Switcher -->
+    <footer>
+        <p>Languages:
+            <a href="#" onclick="toggleLanguage('en')">English</a> |
+            <a href="#" onclick="toggleLanguage('de')">German</a>
+        </p>
+    </footer>
+
+    <script>
+        function toggleLanguage(language) {
+            if (language === 'en') {
+                document.documentElement.lang = 'en';
+                document.body.classList.remove('light');
+                document.body.classList.add('dark');
+            } else if (language === 'de') {
+                document.documentElement.lang = 'de';
+                document.body.classList.remove('dark');
+                document.body.classList.add('light');
+            }
+        }
+    </script>
+</body>
+</html>
