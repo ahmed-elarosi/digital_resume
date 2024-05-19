@@ -7,7 +7,7 @@ from PIL import Image
 current_dir =Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "Ahmed_Elarosi.pdf"
-profile_pic = current_dir / "assets" / "a.h.jpg"
+profile_pic = current_dir / "assets" / "ahmed.jpg"
 
 
 #--settings--#
@@ -21,7 +21,8 @@ EMAIL ="ahmed_elarosi@proton.me"
 SOCIAL_MEDIA = {
 "LinkedIn": "https://www.linkedin.com/in/ahmed-elarosi/",
 "GitHub": " https://github.com/Ahmed-Elarosi",
-"xing": "https://www.xing.com/profile/Ahmed_Elarosi/cv",
+"Xing": "https://www.xing.com/profile/Ahmed_Elarosi/cv",
+"Portfolio": "https://ahmed-elarosi.vercel.app/",
 
 }
 Projects = {
@@ -59,3 +60,23 @@ with col2:
         )
 
     st.write(f"📧 {EMAIL}")
+
+#-- SOCIAL MEDIA --#
+
+st.write("#")
+cols = st.columns(len(SOCIAL_MEDIA))
+for index, (name, link) in enumerate(SOCIAL_MEDIA.items()):
+    with cols[index]:
+        st.markdown(f"[{name}]({link})")
+
+# -- experience --#
+st.write("#")
+st.subheader("Experience & Qualifications")
+st.write("""
+- ✔️ 2 years of experience in software development
+- ✔️ strong hands on experience in web app and API development
+- ✔️ Strong knowledge in Python and JavaScript
+- ✔️ Excellent team player, self-motivated and displaying strong sense of initiative on tasks
+""")
+
+# --skills--#
