@@ -71,7 +71,7 @@ for index, (name, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # -- experience --#
 st.write("#")
-st.subheader("Experience & Qualifications")
+st.subheader(":blue[Experience & Qualifications]", divider='rainbow')
 st.write("""
 - ✔️ 2 years of experience in software development
 - ✔️ strong hands on experience in web app and API development
@@ -80,3 +80,19 @@ st.write("""
 """)
 
 # --skills--#
+st.write("#")
+st.subheader(":blue[Skills]",divider='rainbow')
+st.write(
+    """
+
+- 👨🏻‍💻 ***Programming Languages:*** Python, JavaScript, TypeScript
+- 📚 ***Web Frameworks & Libraries:*** React, Streamlit, Flask
+- 🌐 ***Web Technologies:*** Web Components
+- 🤖 ***DevOps Tools:*** Jenkins, Docker, Kafka, Kubernetes, Microservices, Mogodb
+- 🌩️ ***Cloud Platforms:*** AWS  (S3, EC2, API Gateway)
+- 🚀 ***Version Control:*** Git
+- 📊 ***Agile Development & Project Management Tools:*** Jira, Trello, YouTrack
+
+
+
+""")
