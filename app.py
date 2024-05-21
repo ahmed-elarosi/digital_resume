@@ -93,6 +93,37 @@ st.write(
 - 🚀 ***Version Control:*** Git
 - 📊 ***Agile Development & Project Management Tools:*** Jira, Trello, YouTrack
 
-
-
 """)
+
+# -- work experience --#
+
+st.write("#")
+st.subheader(":blue[Work Experience]",divider='rainbow')
+
+# -- 1st job --#
+st.write("🚧", "**Software developer | StickX Textilveredelung**" )
+st.write("10/2022 - 04/2024")
+st.write("""
+- ➡️ Designing and implementing company-internal REST-API-
+based web applications in close collaboration with users,
+using the Domain Driven Design approach
+- ➡️ Writing unit and integration tests to ensure the quality
+and reliability of the code
+- ➡️ Developing and maintaining the company's website
+- ➡️ Developing algorithms to solve business problems,
+improving efficiency and productivity
+- ➡️ Conceptualizing and implementing database applications
+to store and manage data effectively
+- ➡️ Integrating external interfaces into the software
+architecture (using API or FTP) to expand functionality
+and connectivity
+- ➡️ Developing internal libraries to parse supplier emails and
+PDF files, automating data extraction and processing
+- ➡️ Creating comprehensive documentation for software
+components and user guides for easy understanding and
+usage
+
+
+
+
+         """)
