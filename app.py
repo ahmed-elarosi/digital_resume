@@ -2,22 +2,25 @@ from pathlib import Path
 
 import streamlit as st
 from PIL import Image
-
+from googletrans import Translator  # For translation
 
 current_dir =Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "Ahmed_Elarosi.pdf"
 profile_pic = current_dir / "assets" / "ahmed.jpg"
+translator = Translator()  # Create a translator instance
 
 
 #--settings--#
 PAGE_TITLE = "Digital resume | Ahmed Elarosi"
-PAGE_ICON = "random"
+PAGE_ICON = "🦉"
 NAME = "Ahmed Elarosi"
 DESCRIPTION = """
 Junior Software Dev | DDD Enthusiast | Web App & API Development | Python/JS
 """
 EMAIL ="ahmed_elarosi@proton.me"
+PHONE = "+49 1729851066"
+HOME = "Rosenheim, Germany"
 SOCIAL_MEDIA = {
 "LinkedIn": "https://www.linkedin.com/in/ahmed-elarosi/",
 "GitHub": " https://github.com/Ahmed-Elarosi",
@@ -27,11 +30,11 @@ SOCIAL_MEDIA = {
 }
 Projects = {
 
-"portfolio": "https://ahmed-elarosi.vercel.app/",
-
+"🏆 Personal portfolio website using Next.js, a React framework": "https://ahmed-elarosi.vercel.app/",
+"🏆 Imageboard, a simple social media app, Full Stack MERN (Mongo,Express,React,Node)": "https://imageboard.vercel.app/",
 }
 
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="wide")
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 #--styles--#
 with open(css_file) as f:
@@ -60,6 +63,8 @@ with col2:
         )
 
     st.write(f"📧 {EMAIL}")
+    st.write(f"📱 {PHONE}")
+    st.write(f"🏠 {HOME}")
 
 #-- SOCIAL MEDIA --#
 
@@ -186,4 +191,3 @@ st.write("#")
 st.subheader(":blue[Projects and Accomplishments]",divider='rainbow')
 for name, link in Projects.items():
     st.markdown(f"[{name}]({link})")
-    
