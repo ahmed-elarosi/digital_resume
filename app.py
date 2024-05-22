@@ -25,9 +25,21 @@ SOCIAL_MEDIA = {
 "LinkedIn": "https://www.linkedin.com/in/ahmed-elarosi/",
 "GitHub": " https://github.com/Ahmed-Elarosi",
 "Xing": "https://www.xing.com/profile/Ahmed_Elarosi/cv",
-"Portfolio": "https://ahmed-elarosi.vercel.app/",
+
 
 }
+
+def translate_text(text, target_language="en"):
+    """Translates text to the specified language."""
+    if target_language == "en":  # No translation needed if English
+        return text
+    return translator.translate(text, dest=target_language).text
+
+def load_content(language="en"):
+    """Loads content dynamically based on the chosen language."""
+    #st.title(translate_text(HOME, language))
+    # st.markdown(translate_text(DESCRIPTION, language))
+
 Projects = {
 
 "🏆 Personal portfolio website using Next.js, a React framework": "https://ahmed-elarosi.vercel.app/",
@@ -35,6 +47,13 @@ Projects = {
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+
+# --- Language Selection ---
+st.sidebar.subheader("Language")
+language = st.sidebar.selectbox(
+    "Choose a language",
+    ("English", "Arabic", "German")  # Add more languages as needed
+)
 
 #--styles--#
 with open(css_file) as f:
@@ -44,6 +63,7 @@ with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 
 profile_pic = Image.open(profile_pic)
+load_content(language)
 
 #-- HERO --#
 
@@ -64,7 +84,7 @@ with col2:
 
     st.write(f"📧 {EMAIL}")
     st.write(f"📱 {PHONE}")
-    st.write(f"🏠 {HOME}")
+    st.write(f"🏠 {translate_text(HOME, language)}")
 
 #-- SOCIAL MEDIA --#
 
@@ -72,7 +92,7 @@ st.write("#")
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (name, link) in enumerate(SOCIAL_MEDIA.items()):
     with cols[index]:
-        st.markdown(f"[{name}]({link})")
+        st.markdown(f"[{translate_text(name, language)}]({link})")
 
 # -- experience --#
 st.write("#")
@@ -82,6 +102,8 @@ st.write("""
 - ✔️ strong hands on experience in web app and API development
 - ✔️ Strong knowledge in Python and JavaScript
 - ✔️ Excellent team player, self-motivated and displaying strong sense of initiative on tasks
+- ✔️ Strong analytical and problem-solving skills
+- ✔️ Strong communication and interpersonal skills
 """)
 
 # --skills--#
@@ -103,7 +125,7 @@ st.write(
 # -- work experience --#
 
 st.write("#")
-st.subheader(":blue[Work Experience]",divider='rainbow')
+st.subheader(":blue[Work History]",divider='rainbow')
 
 # -- 1st job --#
 st.write("🚧", "**Software developer | StickX Textilveredelung**" )
