@@ -122,8 +122,68 @@ PDF files, automating data extraction and processing
 - ➡️ Creating comprehensive documentation for software
 components and user guides for easy understanding and
 usage
+""")
 
+# -- 2nd job --#
+st.write("🚧", "**Arabic outreach program manager | Wikimedia Deutschland**" )
+st.write("20/2019 - 01/2020")
+st.write("""
+- ➡️ Working with the Arabic language communities, country
+by country (or affiliate by affiliate) to audit their needs
+for documentation, partnership, outreach, awareness,
+and education
+- ➡️ Overseeing a project with Arabic volunteers to
+prepare/translate appropriate materials based on these
+needs related to major Wikimedia initiatives
+""")
 
+# -- 3rd job --#
+st.write("🚧", "**Medical laboratory assistant | Quick lab**" )
+st.write("08/2016 - 10/2018")
+st.write("""
+- ➡️ Collecting blood samples from patients.
+- ➡️ Deciphering the best method for drawing blood for every
+individual patient.
+- ➡️ Initiating the centrifuging of blood samples, depending
+on if this is allowed in the state you are working in
+""")
 
+#-- 4th job --#
+st.write("🚧", "**Chief accountant | Shorakaa for real estate**" )
+st.write("02/2011 - 07/2018")
+st.write("""
+- ➡️ Processing with banks, cashing checks, and making
+transfers.
+- ➡️ Preparing monthly profit and loss statements, and
+resolving accounting discrepancies and irregularities
+""")
 
-         """)
+#-- 5th job --#
+st.write("🚧", "**Senior accountant and auditor | Consulting group (MFA)**" )
+st.write("07/2010 - 01/2011")
+st.write("""
+- ➡️ Assisting in the design and preparation of feasibility
+study for many companies and projects
+- ➡️ Performing monthly balance sheet, income statement
+and changes in financial position/budget variance
+analyses
+- ➡️ Preparing bank reconciliation statements and performing
+other administrative work
+""")
+
+#-- 6th job --#
+st.write("🚧", "**Senior accountant | Diving ocean new project**" )
+st.write("09/2008 - 06/2010")
+st.write("""
+- ➡️ Establishing, maintaining, and coordinating the
+implementation of accounting procedures
+- ➡️Reconciling accounting inconsistencies
+- ➡️Identifying accounting system (NAUTILUS) discrepancies
+""")
+
+# -- Projects and Accomplishments --#
+st.write("#")
+st.subheader(":blue[Projects and Accomplishments]",divider='rainbow')
+for name, link in Projects.items():
+    st.markdown(f"[{name}]({link})")
+    
