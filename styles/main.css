@@ -8,11 +8,35 @@
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255) !important;
     font-weight: 500;
 }
 
 a:hover {
-    color: #d33682;
+    color: rgb(211, 54, 130) !important ;
+    text-decoration: none;
     font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 200%;
+}
+
+#MainMenu {
+   visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
 }
