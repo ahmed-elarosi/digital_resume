@@ -16,7 +16,9 @@ PAGE_TITLE = "Digital resume | Ahmed Elarosi"
 PAGE_ICON = "🦉"
 NAME = "Ahmed Elarosi"
 DESCRIPTION = """
-Junior Software Dev | DDD Enthusiast | Web App & API Development | Python/JS
+Junior Software Developer | DDD Enthusiast | Web App & API Development | Python/JS
+
+Business and finance background with over 10 years of experience
 """
 EMAIL ="ahmed_elarosi@proton.me"
 PHONE = "+49 1729851066"
@@ -98,7 +100,9 @@ for index, (name, link) in enumerate(SOCIAL_MEDIA.items()):
 st.write("#")
 st.subheader(":blue[Experience & Qualifications]", divider='rainbow')
 st.write("""
+
 - ✔️ 2 years of experience in software development
+- ✔️ 10 years of experience in business and finance
 - ✔️ strong hands on experience in web app and API development
 - ✔️ Strong knowledge in Python and JavaScript
 - ✔️ Excellent team player, self-motivated and displaying strong sense of initiative on tasks
