@@ -208,8 +208,8 @@ st.write("09/2008 - 06/2010")
 st.write("""
 - ➡️ Establishing, maintaining, and coordinating the
 implementation of accounting procedures
-- ➡️Reconciling accounting inconsistencies
-- ➡️Identifying accounting system (NAUTILUS) discrepancies
+- ➡️ Reconciling accounting inconsistencies
+- ➡️ Identifying accounting system (NAUTILUS) discrepancies
 """)
 
 # -- Projects and Accomplishments --#
@@ -217,3 +217,16 @@ st.write("#")
 st.subheader(":blue[Projects and Accomplishments]",divider='rainbow')
 for name, link in Projects.items():
     st.markdown(f"[{name}]({link})")
+
+
+## -- Volunteering --#
+st.write("#")
+st.subheader(":blue[Volunteering]",divider='rainbow')
+st.write("""
+- ✅ Wikimedia Movement
+- ✅ Member of Wikimania 2018 program team - Cape Town.
+- ✅ Member of Wikiindaba 2017 program team - Accra.
+- ✅ Chief organizer of WikiArabia 2017 - Cairo.
+- ✅ Editor at Arabic Wikipedia.
+
+    """)
