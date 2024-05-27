@@ -31,8 +31,8 @@ hr {
     margin-bottom: 200%;
 }
 
-/* #MainMenu {
-   visibility: hidden;
+#MainMenu {
+    visibility: hidden;
 }
 
 footer {
@@ -41,4 +41,4 @@ footer {
 
 header {
     visibility: hidden;
-} */
+}
