@@ -43,9 +43,9 @@ def load_content(language="en"):
     # st.markdown(translate_text(DESCRIPTION, language))
 
 Projects = {
-
-"🏆 Personal portfolio website using Next.js, a React framework": "https://ahmed-elarosi.vercel.app/",
-"🏆 Imageboard, a simple social media app, Full Stack MERN (Mongo,Express,React,Node)": "https://imageboard.vercel.app/",
+"🏆 Automation File Management sorts files into folders based on their type using :blue[Python]":"https://github.com/Ahmed-Elarosi/file_management",
+"🏆 Personal portfolio website using :blue[Next.js, a React framework]": "https://ahmed-elarosi.vercel.app/",
+"🏆 Imageboard, a simple social media app, Full Stack :blue[MERN (Mongo,Express,React,Node)]": "https://imageboard.vercel.app/",
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
