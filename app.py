@@ -6,7 +6,7 @@ from googletrans import Translator  # For translation
 
 current_dir =Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "Ahmed_Elarosi.pdf"
+resume_file = current_dir / "assets" / "Ahmed_Elarosi_Software_Developer_Application.pdf"
 profile_pic = current_dir / "assets" / "ahmed_hamdi.png"
 translator = Translator()  # Create a translator instance
 
@@ -217,6 +217,8 @@ st.write("#")
 st.subheader(":blue[Projects and Accomplishments]",divider='rainbow')
 for name, link in Projects.items():
     st.markdown(f"[{name}]({link})")
+
+
 
 
 ## -- Volunteering --#
