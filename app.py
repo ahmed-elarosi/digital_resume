@@ -219,6 +219,9 @@ for name, link in Projects.items():
     st.markdown(f"[{name}]({link})")
 
 
+# -- Education --#
+st.write("#")
+st.subheader(":blue[Education]",divider='rainbow')
 
 
 ## -- Volunteering --#
