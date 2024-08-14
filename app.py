@@ -101,7 +101,7 @@ st.write("#")
 st.subheader(":blue[Experience & Qualifications]", divider='rainbow')
 st.write("""
 
-- ✔️ 2 years of experience in software development
+- ✔️ 3 years of experience in software development
 - ✔️ 10 years of experience in business and finance
 - ✔️ strong hands on experience in web app and API development
 - ✔️ Strong knowledge in Python and JavaScript
