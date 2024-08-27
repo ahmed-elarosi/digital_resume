@@ -6,8 +6,8 @@ from googletrans import Translator  # For translation
 
 current_dir =Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "Ahmed_Elarosi_Software_Developer_Application.pdf"
-profile_pic = current_dir / "assets" / "ahmed_hamdi.png"
+resume_file = current_dir / "assets" / "Ahmed_Elarosi_Softwareentwickler_Bewerbung.pdf"
+profile_pic = current_dir / "assets" / "hamdi.jpg"
 translator = Translator()  # Create a translator instance
 
 
