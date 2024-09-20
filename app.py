@@ -132,6 +132,16 @@ st.write("#")
 st.subheader(":blue[Work History]",divider='rainbow')
 
 # -- 1st job --#
+st.write("🚧", "**Software developer | Freelancer**" )
+st.write("05/2022 - till now")
+st.write("""
+- ➡️ Project 1: Developed a scalable e-commerce platform:
+    - Designed and implemented a scalable e-commerce platform using React, Node.js, and MongoDB.
+- ➡️ Project 2: Developed a platform:
+    - Implemented CI/CD pipelines and DevOps practices to streamline development processes.
+""")
+
+# -- 2nd job --#
 st.write("🚧", "**Software developer | StickX Textilveredelung**" )
 st.write("10/2022 - 04/2024")
 st.write("""
@@ -155,7 +165,15 @@ components and user guides for easy understanding and
 usage
 """)
 
-# -- 2nd job --#
+# -- 3rd job --#
+st.write("🚧", "**Software developer | Freelancer**" )
+st.write("01/2022 - 0/2022")
+st.write("""
+- ➡️ Collaborated with start-ups and small businesses to develop and implement web-based solutions.
+Focused on JavaScript development, including MongoDB, Express, React, and Node.js (MERN stack).
+""")
+
+# -- 3rd job --#
 st.write("🚧", "**Arabic outreach program manager | Wikimedia Deutschland**" )
 st.write("20/2019 - 01/2020")
 st.write("""
@@ -168,7 +186,7 @@ prepare/translate appropriate materials based on these
 needs related to major Wikimedia initiatives
 """)
 
-# -- 3rd job --#
+# -- 4th job --#
 st.write("🚧", "**Medical laboratory assistant | Quick lab**" )
 st.write("08/2016 - 10/2018")
 st.write("""
@@ -179,7 +197,7 @@ individual patient.
 on if this is allowed in the state you are working in
 """)
 
-#-- 4th job --#
+#-- 5th job --#
 st.write("🚧", "**Chief accountant | Shorakaa for real estate**" )
 st.write("02/2011 - 07/2018")
 st.write("""
@@ -189,7 +207,7 @@ transfers.
 resolving accounting discrepancies and irregularities
 """)
 
-#-- 5th job --#
+#-- 6th job --#
 st.write("🚧", "**Senior accountant and auditor | Consulting group (MFA)**" )
 st.write("07/2010 - 01/2011")
 st.write("""
@@ -202,7 +220,7 @@ analyses
 other administrative work
 """)
 
-#-- 6th job --#
+#-- 7th job --#
 st.write("🚧", "**Senior accountant | Diving ocean new project**" )
 st.write("09/2008 - 06/2010")
 st.write("""
@@ -219,10 +237,9 @@ for name, link in Projects.items():
     st.markdown(f"[{name}]({link})")
 
 
-# -- Education --#
-st.write("#")
-st.subheader(":blue[Education]",divider='rainbow')
-
+# # -- Education --#
+# st.write("#")
+# st.subheader(":blue[Education]",divider='rainbow')
 
 ## -- Volunteering --#
 st.write("#")
