@@ -117,9 +117,9 @@ st.write(
     """
 
 - 👨🏻‍💻 ***Programming Languages:*** Python, JavaScript, TypeScript
-- 📚 ***Web Frameworks & Libraries:*** React, Streamlit, Flask
+- 📚 ***Web Frameworks & Libraries:*** React, Streamlit, Flask, Django
 - 🌐 ***Web Technologies:*** Web Components
-- 🤖 ***DevOps Tools:*** Jenkins, Docker, Kafka, Kubernetes, Microservices, Mogodb
+- 🤖 ***DevOps Tools:*** Jenkins, Docker, Kafka, Kubernetes, Microservices, Mogodb, PostgreSQL
 - 🌩️ ***Cloud Platforms:*** AWS  (S3, EC2, API Gateway)
 - 🚀 ***Version Control:*** Git
 - 📊 ***Agile Development & Project Management Tools:*** Jira, Trello, YouTrack
