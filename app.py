@@ -133,7 +133,7 @@ st.subheader(":blue[Work History]",divider='rainbow')
 
 # -- 1st job --#
 st.write("🚧", "**Software developer | Freelancer**" )
-st.write("05/2022 - till now")
+st.write("05/2024 - till now")
 st.write("""
 - ➡️ Project 1: Developed a scalable e-commerce platform:
     - Designed and implemented a scalable e-commerce platform using React, Node.js, and MongoDB.
