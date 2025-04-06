@@ -16,7 +16,7 @@ PAGE_TITLE = "Digital resume | Ahmed Elarosi"
 PAGE_ICON = "🦉"
 NAME = "Ahmed Elarosi"
 DESCRIPTION = """
-Junior Software Developer | DDD Enthusiast | Web App & API Development | Python/JS
+Software Developer | DDD Enthusiast | Web App & API Development | Python/JS
 
 Business and finance background with over 10 years of experience
 """
